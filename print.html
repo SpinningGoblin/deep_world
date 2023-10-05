@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mechanisms/combat.html"><strong aria-hidden="true">2.1.</strong> Combat</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mechanisms/combat.html"><strong aria-hidden="true">2.1.</strong> Combat</a></li><li class="chapter-item expanded "><a href="mechanisms/exploration.html"><strong aria-hidden="true">2.2.</strong> Exploration</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -176,9 +176,14 @@
 <p>Deep World is a first person RPG where the player controls a group of adventurers as they jump from room to room, exploring the Deep World, levelling up and finding ingredients to help their local pub make better beer (maybe?).</p>
 <h2 id="inspirations"><a class="header" href="#inspirations">Inspirations</a></h2>
 <p>The game is inspired by old-school &quot;blobbers&quot;, tabletop role-playing games, and board games.</p>
+<h2 id="objective"><a class="header" href="#objective">Objective</a></h2>
+<p>Is there an endpoint? What is the goal?
+There will be a progression to the ingredients and levels that the player can get to. The enemies will also get stronger, though there will be rooms that are
+generated at lower difficulties, just for some variety. There will likely be a max level and a max quality to the ingredients that are retrieved during the trip through Deep World.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="mechanisms"><a class="header" href="#mechanisms">Mechanisms</a></h1>
 <ul>
 <li><a href="./mechanisms/combat.html">Combat</a></li>
+<li><a href="./mechanisms/exploration.html">Exploration</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="combat"><a class="header" href="#combat">Combat</a></h1>
 <h2 id="turn-based"><a class="header" href="#turn-based">Turn-Based</a></h2>
@@ -190,6 +195,24 @@ these action points.</p>
 <p>The player might also have a fewer number of &quot;free actions&quot; they are able to do every turn, but these should likely be very limited.</p>
 <h2 id="enemies-in-shadow"><a class="header" href="#enemies-in-shadow">Enemies in Shadow</a></h2>
 <p>One mechanism from a board/card game that I quite like is where some enemies in a room start off in shadow, so that the characters do not know what they are, and then only after being damaged once, or during their first attack are they revealed. Is there a way to incorporate that into this game?</p>
+<h2 id="exhausted-actions"><a class="header" href="#exhausted-actions">Exhausted Actions</a></h2>
+<p>The same board game that has enemies in shadow also has a mechanism where an action is exhausted after it is used, and there are other actions that unexhaust every other action, and that one cannot be exhausted.  I like the idea of this, and it could be fun to implement.</p>
+<h2 id="small-grids"><a class="header" href="#small-grids">Small Grids</a></h2>
+<p>The rooms will be divided into grids, on two sides. One side of the room for the party of adventurers and the other side of the room for the bad guys, though they may be slightly less grid-like. There will also be an upper grid and a lower grid. The upper grid will be for flying creatures and characters and then the lower grid is ground level.</p>
+<p>Melee characters in the back of the grid cannot attack characters at the back of the other grid, they need to be in the front.</p>
+<h2 id="advantage-and-disadvantage"><a class="header" href="#advantage-and-disadvantage">Advantage and Disadvantage</a></h2>
+<p>It would be nice to be able to have some characters get advantage or disadvantage when doing certain actions in combat. If I do attack rolls, it could be having advantage on the attack, or it could be advantage on the damage rolls.</p>
+<h3 id="advantage"><a class="header" href="#advantage">Advantage</a></h3>
+<p>The roll happens twice, and the best result is taken.</p>
+<h3 id="disadvantage"><a class="header" href="#disadvantage">Disadvantage</a></h3>
+<p>The roll happens twice, and the worse result is taken.</p>
+<h2 id="flying-opponents"><a class="header" href="#flying-opponents">Flying Opponents</a></h2>
+<p>Characters that are in the upper grid, either by flying or on a ledge/ladder have normal rolls against characters in the lower grid, unless they have a ranged or reach weapon, if they have one of those, they would have <a href="mechanisms/combat.html#advantage">advantage</a>. If a character is in the lower grid, they would have <a href="mechanisms/combat.html#disadvantage">disadvantage</a> attacking characters in the upper grid, unless they have a weapon with range or reach, in which case they will get a normal roll.</p>
+<p>Maybe there will be certain weapons which would allow characters in the lower level to gain <a href="mechanisms/combat.html#advantage">advantage</a> over characters in the upper level, or allow them to ground them.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="exploration"><a class="header" href="#exploration">Exploration</a></h1>
+<p>The Deep World is made up of inter-connected rooms. The player can move its party from one room to another freely anytime they are not in combat. Some rooms might be locked/blocked by some of the creatures in the room.</p>
+<h2 id="back-to-the-pub"><a class="header" href="#back-to-the-pub">Back to the Pub</a></h2>
+<p>At any point in time when not in combat the player should be able to take their party back to the pub to drop off the ingredients they've collected, design new recipes and stock up for their next outing.</p>
 
                     </main>
 

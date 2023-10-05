@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="../mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mechanisms/combat.html" class="active"><strong aria-hidden="true">2.1.</strong> Combat</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="../mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mechanisms/combat.html" class="active"><strong aria-hidden="true">2.1.</strong> Combat</a></li><li class="chapter-item expanded "><a href="../mechanisms/exploration.html"><strong aria-hidden="true">2.2.</strong> Exploration</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -181,6 +181,20 @@ these action points.</p>
 <p>The player might also have a fewer number of &quot;free actions&quot; they are able to do every turn, but these should likely be very limited.</p>
 <h2 id="enemies-in-shadow"><a class="header" href="#enemies-in-shadow">Enemies in Shadow</a></h2>
 <p>One mechanism from a board/card game that I quite like is where some enemies in a room start off in shadow, so that the characters do not know what they are, and then only after being damaged once, or during their first attack are they revealed. Is there a way to incorporate that into this game?</p>
+<h2 id="exhausted-actions"><a class="header" href="#exhausted-actions">Exhausted Actions</a></h2>
+<p>The same board game that has enemies in shadow also has a mechanism where an action is exhausted after it is used, and there are other actions that unexhaust every other action, and that one cannot be exhausted.  I like the idea of this, and it could be fun to implement.</p>
+<h2 id="small-grids"><a class="header" href="#small-grids">Small Grids</a></h2>
+<p>The rooms will be divided into grids, on two sides. One side of the room for the party of adventurers and the other side of the room for the bad guys, though they may be slightly less grid-like. There will also be an upper grid and a lower grid. The upper grid will be for flying creatures and characters and then the lower grid is ground level.</p>
+<p>Melee characters in the back of the grid cannot attack characters at the back of the other grid, they need to be in the front.</p>
+<h2 id="advantage-and-disadvantage"><a class="header" href="#advantage-and-disadvantage">Advantage and Disadvantage</a></h2>
+<p>It would be nice to be able to have some characters get advantage or disadvantage when doing certain actions in combat. If I do attack rolls, it could be having advantage on the attack, or it could be advantage on the damage rolls.</p>
+<h3 id="advantage"><a class="header" href="#advantage">Advantage</a></h3>
+<p>The roll happens twice, and the best result is taken.</p>
+<h3 id="disadvantage"><a class="header" href="#disadvantage">Disadvantage</a></h3>
+<p>The roll happens twice, and the worse result is taken.</p>
+<h2 id="flying-opponents"><a class="header" href="#flying-opponents">Flying Opponents</a></h2>
+<p>Characters that are in the upper grid, either by flying or on a ledge/ladder have normal rolls against characters in the lower grid, unless they have a ranged or reach weapon, if they have one of those, they would have <a href="#advantage">advantage</a>. If a character is in the lower grid, they would have <a href="#disadvantage">disadvantage</a> attacking characters in the upper grid, unless they have a weapon with range or reach, in which case they will get a normal roll.</p>
+<p>Maybe there will be certain weapons which would allow characters in the lower level to gain <a href="#advantage">advantage</a> over characters in the upper level, or allow them to ground them.</p>
 
                     </main>
 
@@ -190,6 +204,9 @@ these action points.</p>
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../mechanisms/exploration.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -201,6 +218,9 @@ these action points.</p>
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../mechanisms/exploration.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
