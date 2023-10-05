@@ -13,6 +13,8 @@ The player might also have a fewer number of "free actions" they are able to do 
 ## Enemies in Shadow
 One mechanism from a board/card game that I quite like is where some enemies in a room start off in shadow, so that the characters do not know what they are, and then only after being damaged once, or during their first attack are they revealed. Is there a way to incorporate that into this game?
 
+Maybe the enemies that are still in shadow on their turn get [advantage](#advantage) on some or all of their acrions. Could also add an ability for one of the player characters to put themselves in shadow as well.
+
 ## Exhausted Actions
 The same board game that has enemies in shadow also has a mechanism where an action is exhausted after it is used, and there are other actions that unexhaust every other action, and that one cannot be exhausted.  I like the idea of this, and it could be fun to implement.
 
