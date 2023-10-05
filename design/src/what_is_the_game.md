@@ -3,3 +3,8 @@ Deep World is a first person RPG where the player controls a group of adventurer
 
 ## Inspirations
 The game is inspired by old-school "blobbers", tabletop role-playing games, and board games.
+
+## Objective
+Is there an endpoint? What is the goal?
+There will be a progression to the ingredients and levels that the player can get to. The enemies will also get stronger, though there will be rooms that are
+generated at lower difficulties, just for some variety. There will likely be a max level and a max quality to the ingredients that are retrieved during the trip through Deep World.
