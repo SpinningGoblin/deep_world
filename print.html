@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mechanisms/combat.html"><strong aria-hidden="true">2.1.</strong> Combat</a></li><li class="chapter-item expanded "><a href="mechanisms/exploration.html"><strong aria-hidden="true">2.2.</strong> Exploration</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="mechanisms.html"><strong aria-hidden="true">2.</strong> Mechanisms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mechanisms/combat.html"><strong aria-hidden="true">2.1.</strong> Combat</a></li><li class="chapter-item expanded "><a href="mechanisms/exploration.html"><strong aria-hidden="true">2.2.</strong> Exploration</a></li></ol></li><li class="chapter-item expanded "><a href="rooms.html"><strong aria-hidden="true">3.</strong> Rooms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rooms/generation.html"><strong aria-hidden="true">3.1.</strong> Room Generation</a></li><li class="chapter-item expanded "><a href="rooms/room_types.html"><strong aria-hidden="true">3.2.</strong> Room Types</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rooms/room_types/combat_room.html"><strong aria-hidden="true">3.2.1.</strong> Combat Room</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -214,6 +214,36 @@ these action points.</p>
 <p>The Deep World is made up of inter-connected rooms. The player can move its party from one room to another freely anytime they are not in combat. Some rooms might be locked/blocked by some of the creatures in the room.</p>
 <h2 id="back-to-the-pub"><a class="header" href="#back-to-the-pub">Back to the Pub</a></h2>
 <p>At any point in time when not in combat the player should be able to take their party back to the pub to drop off the ingredients they've collected, design new recipes and stock up for their next outing.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="rooms"><a class="header" href="#rooms">Rooms</a></h1>
+<p>When exploring the Deep World, rooms will be what a party has encounters in. The party will travel from room to room, I am currently unsure if there will be anything happening in the connections between rooms.</p>
+<ul>
+<li><a href="./rooms/generation.html">Room Generation</a></li>
+<li><a href="./rooms/room_types.html">Room Types</a>
+<ul>
+<li><a href="./rooms/room_types/combat_room.html">Combat Room</a></li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="room-generation-basics"><a class="header" href="#room-generation-basics">Room Generation Basics</a></h1>
+<p>Rooms will have an environment/theme to them, which will dictate what the floor and walls can look like. The section of the world that is being generated will also have its own biome which will then feed the theme choices for the room. This will dictate what the room looks like overall, and possibly also any fixtures (tables/chairs/weapon racks/etc) that are in the room. After this the type of room is picked, and then the generation for each takes over.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="room-types"><a class="header" href="#room-types">Room Types</a></h1>
+<ul>
+<li><a href="rooms/./room_types/combat_room.html">Combat Room</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="combat-room"><a class="header" href="#combat-room">Combat Room</a></h1>
+<p>The bulk of the rooms that will get generated are going to be combat rooms. There will be enemies that the party will have to fight to continue on to the next room(s).</p>
+<h2 id="difficulty"><a class="header" href="#difficulty">Difficulty</a></h2>
+<p>There will be 3 levels of difficulty for combat rooms. Easy, Medium and Hard.</p>
+<h3 id="easy"><a class="header" href="#easy">Easy</a></h3>
+<p>Easy rooms should be pretty basic. There would only be a limited number of enemies, or they'd be lower level if there's more of them. They would mostly be there for a slight change of pace, and maybe they'd be do some healing if they have abilities that let them heal during combat. Also might be a way to get easy ingredients or improvements for the pub.</p>
+<h3 id="medium"><a class="header" href="#medium">Medium</a></h3>
+<p>This will be the room that gets spawned the most often. It should offer a decent challenge but nothing that would wipe an entire party. If the party is at full health it should just do some ok damage to them, or maybe incapacitate a member if things go incredibly poorly.</p>
+<h3 id="hard"><a class="header" href="#hard">Hard</a></h3>
+<p>This should only be generated very rarely, and should have very good rewards for beating the monster in the room. Maybe something larger, or a larger party of bad guys. This is something that might incapacitate most of the party, or at least bring many of them down close to incapacitation.</p>
+<h2 id="exits"><a class="header" href="#exits">Exits</a></h2>
+<p>A room will always have an exit where the party came into the room through. Other than that exit, the room will have 0-3 other exits.</p>
+<h3 id="locked-exits"><a class="header" href="#locked-exits">Locked Exits</a></h3>
+<p>Some doors will be locked, possibly with locks that can be opened with keys that can be found (or lockpicks), or by magic spells that would have to be dispelled if the party has the right way to accomplish that. I'd want to make sure that I don't force the party into a dead-end through no fault of themselves, e.g. a locked door with no keys available to them.</p>
 
                     </main>
 
