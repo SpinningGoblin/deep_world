@@ -1,6 +1,7 @@
 # Summary
 
 - [What is the Game?](./what_is_the_game.md)
+- [The World](./world.md)
 - [Combat](./combat.md)
 - [Exploration](./exploration.md)
 - [Rooms](./rooms.md)
