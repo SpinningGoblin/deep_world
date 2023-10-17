@@ -16,10 +16,10 @@ An alternative to having action points is to have every character get a single a
 ## Enemies in Shadow
 One mechanism from a board/card game that I quite like is where some enemies in a room start off in shadow, so that the characters do not know what they are, and then only after being damaged once, or during their first attack are they revealed. Is there a way to incorporate that into this game?
 
-Maybe the enemies that are still in shadow on their turn get [advantage](#advantage) on some or all of their acrions. Could also add an ability for one of the player characters to put themselves in shadow as well.
+Maybe the enemies that are still in shadow on their turn get [advantage](#advantage) on some or all of their actions. Could also add an ability for one of the player characters to put themselves in shadow as well.
 
 ## Exhausted Actions
-The same board game that has enemies in shadow also has a mechanism where an action is exhausted after it is used, and there are other actions that unexhaust every other action, and that one cannot be exhausted.  I like the idea of this, and it could be fun to implement.
+The same board game that has enemies in shadow also has a mechanism where an action is exhausted after it is used, and there are other actions that un-exhaust every other action, and that one cannot be exhausted.  I like the idea of this, and it could be fun to implement.
 
 ## Small Grids
 The rooms will be divided into grids, on two sides. One side of the room for the party of adventurers and the other side of the room for the bad guys, though they may be slightly less grid-like. There will also be an upper grid and a lower grid. The upper grid will be for flying creatures and characters and then the lower grid is ground level.

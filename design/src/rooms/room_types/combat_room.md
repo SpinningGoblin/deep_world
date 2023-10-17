@@ -17,4 +17,4 @@ This should only be generated very rarely, and should have very good rewards for
 A room will always have an exit where the party came into the room through. Other than that exit, the room will have 0-3 other exits.
 
 ### Locked Exits
-Some doors will be locked, possibly with locks that can be opened with keys that can be found (or lockpicks), or by magic spells that would have to be dispelled if the party has the right way to accomplish that. I'd want to make sure that I don't force the party into a dead-end through no fault of themselves, e.g. a locked door with no keys available to them.
+Some doors will be locked, possibly with locks that can be opened with keys that can be found (or lock picks), or by magic spells that would have to be dispelled if the party has the right way to accomplish that. I'd want to make sure that I don't force the party into a dead-end through no fault of themselves, e.g. a locked door with no keys available to them.
