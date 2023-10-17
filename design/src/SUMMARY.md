@@ -2,6 +2,8 @@
 
 - [What is the Game?](./what_is_the_game.md)
 - [The World](./world.md)
+- [Characters](./characters.md)
+    - [Races](./characters/races.md)
 - [Combat](./combat.md)
 - [Exploration](./exploration.md)
 - [Rooms](./rooms.md)
