@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Combat Room - Deep World Design Docs</title>
+        <title>The World - Deep World Design Docs</title>
 
 
         <!-- Custom HTML head -->
@@ -12,21 +12,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="../../favicon.svg">
-        <link rel="shortcut icon" href="../../favicon.png">
-        <link rel="stylesheet" href="../../css/variables.css">
-        <link rel="stylesheet" href="../../css/general.css">
-        <link rel="stylesheet" href="../../css/chrome.css">
-        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../../highlight.css">
-        <link rel="stylesheet" href="../../tomorrow-night.css">
-        <link rel="stylesheet" href="../../ayu-highlight.css">
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -35,7 +35,7 @@
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "../../";
+            var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../../what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="../../world.html"><strong aria-hidden="true">2.</strong> The World</a></li><li class="chapter-item expanded "><a href="../../characters.html"><strong aria-hidden="true">3.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../characters/races.html"><strong aria-hidden="true">3.1.</strong> Races</a></li></ol></li><li class="chapter-item expanded "><a href="../../combat.html"><strong aria-hidden="true">4.</strong> Combat</a></li><li class="chapter-item expanded "><a href="../../exploration.html"><strong aria-hidden="true">5.</strong> Exploration</a></li><li class="chapter-item expanded "><a href="../../rooms.html"><strong aria-hidden="true">6.</strong> Rooms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../rooms/generation.html"><strong aria-hidden="true">6.1.</strong> Room Generation</a></li><li class="chapter-item expanded "><a href="../../rooms/room_types.html"><strong aria-hidden="true">6.2.</strong> Room Types</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../rooms/room_types/combat_room.html" class="active"><strong aria-hidden="true">6.2.1.</strong> Combat Room</a></li></ol></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="what_is_the_game.html"><strong aria-hidden="true">1.</strong> What is the Game?</a></li><li class="chapter-item expanded "><a href="world.html" class="active"><strong aria-hidden="true">2.</strong> The World</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">3.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="characters/races.html"><strong aria-hidden="true">3.1.</strong> Races</a></li></ol></li><li class="chapter-item expanded "><a href="combat.html"><strong aria-hidden="true">4.</strong> Combat</a></li><li class="chapter-item expanded "><a href="exploration.html"><strong aria-hidden="true">5.</strong> Exploration</a></li><li class="chapter-item expanded "><a href="rooms.html"><strong aria-hidden="true">6.</strong> Rooms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rooms/generation.html"><strong aria-hidden="true">6.1.</strong> Room Generation</a></li><li class="chapter-item expanded "><a href="rooms/room_types.html"><strong aria-hidden="true">6.2.</strong> Room Types</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rooms/room_types/combat_room.html"><strong aria-hidden="true">6.2.1.</strong> Combat Room</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -142,7 +142,7 @@
                     <h1 class="menu-title">Deep World Design Docs</h1>
 
                     <div class="right-buttons">
-                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -171,29 +171,26 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="combat-room"><a class="header" href="#combat-room">Combat Room</a></h1>
-<p>The bulk of the rooms that will get generated are going to be combat rooms. There will be enemies that the party will have to fight to continue on to the next room(s).</p>
-<h2 id="difficulty"><a class="header" href="#difficulty">Difficulty</a></h2>
-<p>There will be 3 levels of difficulty for combat rooms. Easy, Medium and Hard.</p>
-<h3 id="easy"><a class="header" href="#easy">Easy</a></h3>
-<p>Easy rooms should be pretty basic. There would only be a limited number of enemies, or they'd be lower level if there's more of them. They would mostly be there for a slight change of pace, and maybe they'd be do some healing if they have abilities that let them heal during combat. Also might be a way to get easy ingredients or improvements for the pub.</p>
-<h3 id="medium"><a class="header" href="#medium">Medium</a></h3>
-<p>This will be the room that gets spawned the most often. It should offer a decent challenge but nothing that would wipe an entire party. If the party is at full health it should just do some ok damage to them, or maybe incapacitate a member if things go incredibly poorly.</p>
-<h3 id="hard"><a class="header" href="#hard">Hard</a></h3>
-<p>This should only be generated very rarely, and should have very good rewards for beating the monster in the room. Maybe something larger, or a larger party of bad guys. This is something that might incapacitate most of the party, or at least bring many of them down close to incapacitation.</p>
-<h2 id="exits"><a class="header" href="#exits">Exits</a></h2>
-<p>A room will always have an exit where the party came into the room through. Other than that exit, the room will have 0-3 other exits.</p>
-<h3 id="locked-exits"><a class="header" href="#locked-exits">Locked Exits</a></h3>
-<p>Some doors will be locked, possibly with locks that can be opened with keys that can be found (or lockpicks), or by magic spells that would have to be dispelled if the party has the right way to accomplish that. I'd want to make sure that I don't force the party into a dead-end through no fault of themselves, e.g. a locked door with no keys available to them.</p>
+                        <h1 id="the-world"><a class="header" href="#the-world">The World</a></h1>
+<p>Deep World is deep underground. It is an endless underground space, which twists and morphs constantly. Permanent locations can be created and held consistent by magic, which is where the creatures (friendly and unfriendly) of this world gather.</p>
+<p>These permanent locations can be expanded by bolstering the magic that sustains them. If that magic is ever destroyed or dispelled, the locations will slowly unravel and break apart, with them not able to be found again by other travellers.</p>
+<h2 id="the-pub"><a class="header" href="#the-pub">The Pub</a></h2>
+<p>The pub is one such location that is being held together by a magic spell. As the world shifts around it, creatures can come across it as they travel. Creatures can stay at the pub (there's an inn as well), and goods can be traded while there.</p>
+<p>The player is helping to run the Pub, and can provide ingredients, new recipes and other resources to help improve the Pub and its grounds.</p>
+<h2 id="the-void"><a class="header" href="#the-void">The Void</a></h2>
+<p>Connected to everything is the Void. It is all around the Deep World, and occasionally it finds its way in, especially when creatures die. When a member of the party dies, they can be revived, but pieces of them, shadows of their selves, will be taken by the Void and deposited in other worlds.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../rooms/room_types.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="what_is_the_game.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="characters.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -201,10 +198,13 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../rooms/room_types.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="what_is_the_game.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="characters.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -217,13 +217,13 @@
         </script>
 
 
-        <script src="../../elasticlunr.min.js"></script>
-        <script src="../../mark.min.js"></script>
-        <script src="../../searcher.js"></script>
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
 
-        <script src="../../clipboard.min.js"></script>
-        <script src="../../highlight.js"></script>
-        <script src="../../book.js"></script>
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
 
