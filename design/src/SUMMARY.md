@@ -4,6 +4,7 @@
 - [The World](./world.md)
 - [Characters](./characters.md)
     - [Races](./characters/races.md)
+    - [Classes](./characters/classes.md)
 - [Combat](./combat.md)
 - [Exploration](./exploration.md)
 - [Rooms](./rooms.md)
