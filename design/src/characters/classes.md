@@ -20,4 +20,4 @@ Some creatures have some low-level psychic abilities that give them some abiliti
 Sneaks in shadow, which means they are good at going after enemies in shadow as well.
 
 ## Speaker
-They speak to the Void, the walls of Deep World, or the powerful beings that reside there. Asks for favours from the ones they speak to against their enemies.
+They speak to the Void, the walls of Deep World, or the powerful beings that reside in either. Asks for favours from the ones they speak to against their enemies.
