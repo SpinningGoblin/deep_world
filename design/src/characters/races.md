@@ -19,8 +19,5 @@ Usually quite tall and has tusks jutting from its lower jaw.
 ## Ratkin
 A rodent-like humanoid.
 
-## Shifter
-What does their natural form look like? Nobody really knows. Shifts and changes to a few forms at will. Each shifter can change into a few forms, not infinite.
-
 ## Troll
 Tall creature that hates fire.
