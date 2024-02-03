@@ -1,6 +1,6 @@
 use deep_world_core::rules::CharacterClass;
 
-pub struct DefaultClasses {}
+pub struct DefaultClasses;
 
 impl DefaultClasses {
     pub fn fighter() -> &'static str {
