@@ -1,3 +1,3 @@
 # Characters
-- [Races](./characters/races.md)
+- [Ancestries](./characters/ancestries.md)
 - [Classes](./characters/classes.md)
