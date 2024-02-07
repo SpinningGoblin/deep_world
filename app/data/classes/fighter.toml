@@ -1,0 +1,3 @@
+id = "fighter"
+name = "Fighter"
+health_dice = [1, "d10"]
