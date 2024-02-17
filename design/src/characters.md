@@ -1,3 +1,4 @@
 # Characters
-- [Ancestries](./characters/ancestries.md)
-- [Classes](./characters/classes.md)
+
+-   [Ancestries](./characters/ancestries.md)
+-   [Classes](./characters/classes.md)

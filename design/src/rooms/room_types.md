@@ -1,2 +1,3 @@
 # Room Types
-- [Combat Room](./room_types/combat_room.md)
+
+-   [Combat Room](./room_types/combat_room.md)
