@@ -1,0 +1,3 @@
+id = "weapon_master"
+name = "Weapon Master"
+health_dice = [1, "d10"]

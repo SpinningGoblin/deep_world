@@ -5,6 +5,7 @@
 - [Characters](./characters.md)
     - [Races](./characters/races.md)
     - [Classes](./characters/classes.md)
+- [Skills And Actions](./skills_and_actions.md)
 - [Combat](./combat.md)
 - [Exploration](./exploration.md)
 - [Rooms](./rooms.md)
