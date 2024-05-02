@@ -6,6 +6,17 @@ Deep World is a first person RPG where the player controls a group of adventurer
 
 The game is inspired by old-school "blobbers", tabletop role-playing games, and board games.
 
+### What should the game feel like?
+
+Main things I want the game to be about:
+
+- tactics
+  - combat should be interesting, and fun.
+  - There should be a variable amount of challenge, determined by the player.
+- exploration
+  - The world should be interesting to explore, with lived in spaces
+  - Even though the world is constantly changing, the rooms the player goes through still need to be interesting and possibly directly created.
+
 ## Objective
 
 Is there an endpoint? What is the goal?
@@ -14,4 +25,6 @@ generated at lower difficulties, just for some variety. There will likely be a m
 
 ## Random or not random?
 
-Part of me wants this game to be randomized, where rooms are random, based on biomes or other things, and the world shifts and changes as you explore and go to and from the Pub. But another part of me wants to design the world and dungeons because it might be simpler? Is there a way to do both?
+The game might be semi-random. The rooms themselves, and the links between them will for the most part be created by hand, with maybe a bit of procedural generation to help out in some instances. I think it might be more interesting to attempt to put together a dungeon that is interesting to pass through.
+
+The randomness might come in where the specific dungeon that the players will dive into will be decided randomly (ish, I wouldn't want the same one chosen all the time), so that there is some variety there.

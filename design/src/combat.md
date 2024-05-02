@@ -6,7 +6,7 @@ The game will be a turn-based game when it comes to combat, or other "struggle" 
 
 ## Actions
 
-Each character will be able to do 1 action, a move and maybe a few free/bonus actions. Pretty much the same as other D20 based systems.
+Each character will be able to do 1 action, a move and maybe a few free/bonus actions.
 
 Some characters, as they level up, might be able to do more actions, or they might be able to have more actions given to them by other characters.
 
@@ -20,7 +20,7 @@ There will also be skills for removing creatures from being in shadow, magical l
 
 For reference, the start of this mechanic is based on a mechanic in
 
--   [Warhammer Quest: Adventure Card Game](https://boardgamegeek.com/boardgame/181521/warhammer-quest-adventure-card-game)
+- [Warhammer Quest: Adventure Card Game](https://boardgamegeek.com/boardgame/181521/warhammer-quest-adventure-card-game)
 
 ## Exhausted Skills
 
@@ -46,11 +46,11 @@ It would be nice to be able to have some characters get advantage or disadvantag
 
 ### Advantage
 
-The roll happens twice, and the best result is taken.
+The roll happens twice, and the best result is taken. Or possibly you roll N + 1 dice, and keep the top N.
 
 ### Disadvantage
 
-The roll happens twice, and the worse result is taken.
+The roll happens twice, and the worse result is taken. Or possibly you roll N + 1 dice, and keep the bottom N.
 
 ## Initiative
 
@@ -58,8 +58,21 @@ Initiative will be decided at the beginning of the fight. It will be a basic rol
 
 ## Attacking
 
-Do I want to have attack rolls or should attacks automatically hit and the rolls are only for the damage. Or should attacking/defending be more based on a card/board game?
+**Note:** Some ideas taken from the MCDM RPG as well as others.
 
-If attacks automatically hit, how can damage be handled? Do creatures have damage resistance from their armour and natural resistances?
+### Attack Roll
 
-The player should be able to decide what enemy (or enemies) each member of the party targets and what type of attack they are going to do.
+When attacking, [The Roll](./the_roll.md) is used, and the result is compared against a small lookup table which gives the damage and other effects. I think this amount of randomness could be fun, with modifiers able to make higher damage more guaranteed if players have the resources.
+
+### Auto Hit
+
+There is no missing an attack, it will automatically hit, as will enemy attacks. To account for some of this, the HP will likely be upped for both players and monsters.
+
+### Targets, Range and Area of Effect
+
+All attack skills will have a Range and either a number of Targets, or an Area of Effect (AoE).
+
+- Range - A value from 1 to N, where the value is the number of grid squares away the character must be.
+- Targets - The number of enemies the skill can hit at once. If the value is greater than 1, then the player will be able to click on each enemy to add to the selection.
+- Area of Effect - The shape of the attack as it overlays on the grid, could be a square of 4 cells, a line, or something else.
+  - Will this work if I want to do first person?
