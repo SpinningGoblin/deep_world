@@ -6,9 +6,17 @@ The game will be a turn-based game when it comes to combat, or other "struggle" 
 
 ## Actions
 
+### Action Options
+
+#### One action
+
 Each character will be able to do 1 action, a move and maybe a few free/bonus actions.
 
 Some characters, as they level up, might be able to do more actions, or they might be able to have more actions given to them by other characters.
+
+#### Action Points
+
+Each ability could take up a number of action points to use, including movement and other maneuver abilities.
 
 ## Enemies in Shadow
 
@@ -20,7 +28,7 @@ There will also be skills for removing creatures from being in shadow, magical l
 
 For reference, the start of this mechanic is based on a mechanic in
 
-- [Warhammer Quest: Adventure Card Game](https://boardgamegeek.com/boardgame/181521/warhammer-quest-adventure-card-game)
+-   [Warhammer Quest: Adventure Card Game](https://boardgamegeek.com/boardgame/181521/warhammer-quest-adventure-card-game)
 
 ## Exhausted Skills
 
@@ -42,7 +50,7 @@ There should be ways for characters/creatures to drag others from the upper grid
 
 ## Advantage and Disadvantage
 
-It would be nice to be able to have some characters get advantage or disadvantage when doing certain actions in combat. If I do attack rolls, it could be having advantage on the attack, or it could be advantage on the damage rolls.
+It would be nice to be able to have some characters get advantage or disadvantage when doing certain actions in combat. Advantage will add to the roll which might change their result.
 
 ### Advantage
 
@@ -72,7 +80,7 @@ There is no missing an attack, it will automatically hit, as will enemy attacks.
 
 All attack skills will have a Range and either a number of Targets, or an Area of Effect (AoE).
 
-- Range - A value from 1 to N, where the value is the number of grid squares away the character must be.
-- Targets - The number of enemies the skill can hit at once. If the value is greater than 1, then the player will be able to click on each enemy to add to the selection.
-- Area of Effect - The shape of the attack as it overlays on the grid, could be a square of 4 cells, a line, or something else.
-  - Will this work if I want to do first person?
+-   Range - A value from 1 to N, where the value is the number of grid squares away the character must be.
+-   Targets - The number of enemies the skill can hit at once. If the value is greater than 1, then the player will be able to click on each enemy to add to the selection.
+-   Area of Effect - The shape of the attack as it overlays on the grid, could be a square of 4 cells, a line, or something else.
+    -   Will this work if I want to do first person?

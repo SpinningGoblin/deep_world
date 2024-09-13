@@ -10,12 +10,11 @@ The game is inspired by old-school "blobbers", tabletop role-playing games, and 
 
 Main things I want the game to be about:
 
-- tactics
-  - combat should be interesting, and fun.
-  - There should be a variable amount of challenge, determined by the player.
-- exploration
-  - The world should be interesting to explore, with lived in spaces
-  - Even though the world is constantly changing, the rooms the player goes through still need to be interesting and possibly directly created.
+-   tactics
+    -   Challenge should be determined by the player.
+-   exploration
+    -   The world should be interesting to explore, with lived in spaces
+    -   Even though the world is constantly changing, the rooms the player goes through still need to be interesting and possibly directly created.
 
 ## Objective
 
